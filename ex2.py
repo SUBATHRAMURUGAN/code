@@ -1,7 +1,7 @@
 see=int(input())
 if(see%2==0):
   print("Even")
-elif(see%2!=0):
-  print("Odd")
-else:
+elif(see<0):
   print("invalid")
+else:
+  print("Odd")
