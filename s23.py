@@ -1,10 +1,7 @@
-getnum = int(input())
-if getnum > 1:
-    for s in range(2, getnum):
-        if (getnum % s) == 0:
-            print("no")
-            break
-        else:
-            print("yes")
-else:
-    print("no")
+sub=int(input())
+for i in range(2,sub):
+    if(sub%i==0):
+        print("no")
+        break
+    else:
+        print("yes")
