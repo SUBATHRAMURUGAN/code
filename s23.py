@@ -4,7 +4,7 @@ if getnum > 1:
         if (getnum % s) == 0:
             print("no")
             break
-    else:
-        print("yes")
+        else:
+            print("yes")
 else:
     print("no")
