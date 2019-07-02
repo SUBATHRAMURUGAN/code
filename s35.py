@@ -1,0 +1,5 @@
+elem=int(input())
+so=list(map(int,input().split()[:elem]))
+so.sort()
+rep=int((len(so))/2)
+print(so[rep])
